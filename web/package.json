@@ -1,5 +1,6 @@
 {
-  "name": "a06-oriole",
+  "name": "meadows-social-app",
+  "description": "A social media app built with Next.js, Supabase, and Radix UI.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

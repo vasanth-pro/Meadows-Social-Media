@@ -1,4 +1,4 @@
-# Meadows - A Next.js Social Media 🍃
+# Meadows - A Next.js Social Media for Gen-Z 🍃
 
 A full-featured social feed application built with Next.js, Supabase, and React Query. Meadows lets users create posts (with optional images), follow other users, like posts, and manage their profiles. It includes infinite scrolling, light/dark mode, and a responsive, mobile-friendly design.
 

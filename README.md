@@ -37,9 +37,9 @@ A full-featured social feed application built with Next.js, Supabase, and React 
 ## User Interface
 
 <p align="center">
-  <img src="img/home.png" alt="Home Feed" width="600" />
-  <img src="img/post.png" alt="Post Page" width="600" />
-  <img src="img/profile.png" alt="Profile Page" width="600" />
+  <img src="img/home.png" alt="Home Feed" width="100%" />
+  <img src="img/post.png" alt="Post Page" width="100%" />
+  <img src="img/profile.png" alt="Profile Page" width="100%" />
 </p>
 
 ---

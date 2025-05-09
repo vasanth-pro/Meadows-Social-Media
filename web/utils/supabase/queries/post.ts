@@ -14,7 +14,7 @@ export const getPost = async (
   supabase: SupabaseClient,
   user: User,
   postId: string,
-): Promise<z.infer<typeof Post>> => {
+): Promise<z.infer<typeof Post> | null> => {
   // Select the post with the given ID (all its data,
   // such as id, content, posted_at, likes, and author)
   const { data, error } = await supabase
@@ -37,18 +37,19 @@ export const getPost = async (
     `,
     )
     .eq("id", postId)
-    .single();
+    .maybeSingle(); // returns null if not found
+
   // 'author:author_id' joins and renames the related author data
   // 'likes:like' fetches and aliases the corresponding likes information
 
-  // Handle errors
+  // Handle errors → treat any error as "not found"
   if (error) {
-    throw new Error(error.message);
+    return null;
   }
 
   // Edge case: no data returned but no error either
   if (!data) {
-    throw new Error("Post not found or no data returned.");
+    return null;
   }
 
   // Validate and transform data using Zod

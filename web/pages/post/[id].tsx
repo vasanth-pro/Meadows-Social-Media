@@ -171,13 +171,24 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
   const supabase = createSupabaseServerClient(context);
   const { data: userData, error: userError } = await supabase.auth.getUser();
 
+  // require login
   if (userError || !userData) {
     return {
       redirect: { destination: "/login", permanent: false },
     };
   }
 
+  const postId = context.params?.id as string;
+
+  const post = await getPost(supabase, userData.user, postId);
+  if (post === null) {
+    return { notFound: true };
+  }
+
   return {
-    props: { user: userData.user },
+    props: {
+      user: userData.user,
+      initialPostId: postId,
+    },
   };
 }

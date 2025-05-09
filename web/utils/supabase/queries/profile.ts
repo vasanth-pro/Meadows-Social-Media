@@ -14,23 +14,23 @@ export const getProfileData = async (
   supabase: SupabaseClient,
   user: User,
   profileId: string,
-): Promise<z.infer<typeof PostAuthor>> => {
+): Promise<z.infer<typeof PostAuthor> | null> => {
   // Select the single profile data for the given profile ID,
   // with all relevant fields
   const { data, error } = await supabase
     .from("profile")
     .select("id, name, handle, avatar_url")
     .eq("id", profileId)
-    .single();
+    .maybeSingle();
 
-  // If there is an error, throw it
+  // If there is a real DB error, return null
   if (error) {
-    throw new Error(error.message);
+    return null;
   }
 
-  // Edge case: no data returned even though there was no error
+  // No data means "not found" – return null so caller can 404
   if (!data) {
-    throw new Error("No data returned for this profile.");
+    return null;
   }
 
   // Parse the data into a PostAuthor object

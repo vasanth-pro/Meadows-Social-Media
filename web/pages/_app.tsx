@@ -4,12 +4,14 @@ import "@/styles/globals.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 const queryClient = new QueryClient();
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
+      <Analytics />
       <ThemeProvider
         attribute="class"
         defaultTheme="dark"
@@ -17,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
         disableTransitionOnChange
       >
         <Head>
-          <title>Meadow - The Social Media App</title>
+          <title>Meadows - The Social Media App</title>
           <meta
             name="description"
             content="Welcome to Meadow, the ultimate social media app!"

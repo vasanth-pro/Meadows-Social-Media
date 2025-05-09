@@ -37,10 +37,10 @@ export default function Header() {
         <Leaf className="w-6 h-6 text-green-600 dark:text-green-400" />
         <div className="flex flex-col leading-tight">
           <p className="text-xl font-bold text-gray-800 dark:text-gray-100">
-            Meadow
+            Meadows
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Socialize & Share with People
+            Socialize & Share Stylishly
           </p>
         </div>
       </Link>

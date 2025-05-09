@@ -336,6 +336,15 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
     };
   }
 
+  // ─── Pull profileId from the URL params ─────────────────────────────────
+  const profileId = context.params?.id as string;
+
+  // ─── Fetch profile (returns null when not found) ────────────────────────
+  const profile = await getProfileData(supabase, userData.user, profileId);
+  if (profile === null) {
+    return { notFound: true };
+  }
+
   return {
     props: {
       user: userData.user,

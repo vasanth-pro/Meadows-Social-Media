@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ThemeProvider } from "@/components/theme/theme-provider";
-import Header from "@/components/header";
 
 export default function NotFoundPage() {
   return (
@@ -12,7 +11,7 @@ export default function NotFoundPage() {
       disableTransitionOnChange
     >
       <Head>
-        <title>404 – Meadow</title>
+        <title>404 Not Found – Meadow App</title>
         <meta
           name="description"
           content="Page not found – Meadow Social Media App"
@@ -21,8 +20,6 @@ export default function NotFoundPage() {
       </Head>
 
       <div className="flex h-screen flex-col overflow-y-auto overflow-x-hidden">
-        <Header />
-
         <main className="flex flex-grow flex-col items-center justify-center px-4">
           <h1 className="text-6xl font-bold text-center">404</h1>
           <p className="mt-4 text-xl text-center">

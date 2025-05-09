@@ -1,6 +1,6 @@
-# Meadow - A Next.js Social Media 🍃
+# Meadows - A Next.js Social Media 🍃
 
-A full-featured social feed application built with Next.js, Supabase, and React Query. Meadow lets users create posts (with optional images), follow other users, like posts, and manage their profiles. It includes infinite scrolling, light/dark mode, and a responsive, mobile-friendly design.
+A full-featured social feed application built with Next.js, Supabase, and React Query. Meadows lets users create posts (with optional images), follow other users, like posts, and manage their profiles. It includes infinite scrolling, light/dark mode, and a responsive, mobile-friendly design.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
@@ -16,7 +16,7 @@ A full-featured social feed application built with Next.js, Supabase, and React 
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
-**Live Web App**: [https://meadow.vercel.app/](https://meadow.vercel.app/)
+**Live Web App**: [https://meadows.vercel.app/](https://meadows.vercel.app/)
 
 ---
 

@@ -2,7 +2,9 @@
   "name": "meadows-social-app",
   "description": "A social media app built with Next.js, Supabase, and Radix UI.",
   "version": "0.1.0",
-  "private": true,
+  "author": "Son Nguyen",
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

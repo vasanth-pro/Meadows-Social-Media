@@ -1,220 +1,128 @@
-# Meadows - A Next.js Social Media for Gen-Z 🍃
+# Meadows Social Media 🌿
 
-A full-featured social feed application built with Next.js, Supabase, and React Query. Meadows lets users create posts (with optional images), follow other users, like posts, and manage their profiles. It includes infinite scrolling, light/dark mode, and a responsive, mobile-friendly design.
+![Meadows Logo](https://img.shields.io/badge/Meadows-Social%20Media-brightgreen?style=flat&logo=nextdotjs)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query" />
-  <img src="https://img.shields.io/badge/Heroicons-0EA5E9?style=for-the-badge&logo=heroicons&logoColor=white" alt="Heroicons" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier" />
-  <img src="https://img.shields.io/badge/Zod-2B6CB0?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-**Live Web App**: [https://meadows.vercel.app/](https://meadows.vercel.app/)
-
----
+Welcome to the **Meadows Social Media** repository! This project is a sleek social media platform designed for real-time interaction. Built with Next.js, Supabase, and React Query, it provides users with a seamless experience to post, follow, and engage with content.
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Tech Stack](#tech-stack)
-3. [Getting Started](#getting-started)
-4. [Environment Variables](#environment-variables)
-5. [Project Structure](#project-structure)
-6. [Key Components](#key-components)
-7. [Scripts](#scripts)
-8. [Contributing](#contributing)
-9. [License](#license)
-
----
-
-## User Interface
-
-<p align="center">
-  <img src="img/home.png" alt="Home Feed" width="100%" />
-  <img src="img/post.png" alt="Post Page" width="100%" />
-  <img src="img/profile.png" alt="Profile Page" width="100%" />
-</p>
-
----
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
 ## Features
 
-- **User Authentication** via Supabase
-- **Profile Management**: upload/change avatar, view followers/following
-- **Post Creation**: text + image uploads
-- **Infinite Scrolling** for feeds and profiles
-- **Like/Unlike** posts
-- **Follow/Unfollow** other users
-- **Light/Dark Mode** toggle
-- **Share & Copy Link** buttons using Web Share API
-- **Responsive Layout** spanning full width
-- **Client-side Bookmarking** (via `localStorage`)
-- **Server-Side Rendering** for initial data fetch
-- **TypeScript** for type safety
-- **Zod** for schema validation
-- **ESLint & Prettier** for code quality
-- and more!
+🌟 **Real-Time Interaction**: Users can post updates, follow others, and interact in real time. 
 
----
+📱 **Responsive Design**: The platform is built with a mobile-first approach, ensuring a smooth experience on any device.
 
-## Tech Stack
+🌈 **Light/Dark Themes**: Users can switch between light and dark themes based on their preferences.
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Authentication & Database**: [Supabase](https://supabase.com/)
-- **Data Fetching**: [React Query](https://tanstack.com/query/)
-- **UI Components**: Custom, plus [lucide-react](https://lucide.dev/) icons
-- **Styling**: Tailwind CSS (via shadcn/ui conventions)
-- **File Storage**: Supabase Storage
-- and more!
+🔄 **Infinite Scrolling Feeds**: Explore content without interruptions with infinite scrolling.
 
----
+## Technologies Used
 
-## Getting Started
+- **Next.js**: A powerful React framework for building server-rendered applications.
+- **Supabase**: An open-source alternative to Firebase that provides a backend for your application.
+- **React Query**: A data-fetching library that simplifies data management in React applications.
+- **PostgreSQL**: A robust database system used for storing user data and posts.
+- **Shadcn**: A design system that provides beautiful components to enhance user experience.
 
-1. **Clone the repo**
+## Installation
 
-```bash
-git clone https://github.com/hoangsonww/Meadows-Social-Media.git
-cd Meadows-Social-Media/web
-```
+To get started with Meadows Social Media, follow these steps:
 
-2. **Install dependencies**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/vasanth-pro/Meadows-Social-Media.git
+   ```
 
-```bash
-npm install
-# or
-yarn
-```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Meadows-Social-Media
+   ```
 
-3. **Set up environment variables** (see next section)
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-4. **Run the dev server**
+4. **Set Up Environment Variables**: Create a `.env.local` file in the root directory and add your Supabase credentials.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+5. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+6. **Open in Your Browser**: Visit `http://localhost:3000` to see the application in action.
 
----
+## Usage
 
-## Environment Variables
+Once the application is running, you can create an account or log in using Supabase authentication. Explore the platform by following other users, posting updates, and interacting with content.
 
-Create a `.env.local` file at project root with:
+### Posting Updates
 
-```ini
-NEXT_PUBLIC_SUPABASE_URL=<your_supabase_url>
-NEXT_PUBLIC_SUPABASE_ANON_KEY=<your_supabase_anon_key>
-```
+To post an update, navigate to the post creation section, enter your content, and click "Post." Your update will appear in the feed instantly.
 
-You can find these in your Supabase project settings.
+### Following Users
 
----
+You can follow other users by visiting their profiles and clicking the "Follow" button. Their posts will then appear in your feed.
 
-## Project Structure
+### Dark/Light Theme Toggle
 
-```
-/
-├── components/           # Reusable React components
-│   ├── feed.tsx
-│   ├── post.tsx
-│   ├── ui/              # shadcn/ui-style components
-│   └── ...
-├── pages/                # Next.js pages
-│   ├── index.tsx        # Home feed
-│   ├── post/[id].tsx    # Single post view
-│   ├── profile/[id].tsx # Public profile page
-│   └── _app.tsx
-├── utils/
-│   ├── supabase/
-│   │   ├── clients/     # Supabase client creators
-│   │   └── queries/     # DB query functions
-│   └── models/          # zod schemas
-├── public/               # Static assets
-├── styles/               # Global CSS (if any)
-├── README.md
-└── package.json
-```
-
----
-
-## Key Components
-
-### `<Header />`
-
-- Logo + subtitle
-- Light/Dark mode toggle
-- User dropdown: view profile, sign out
-
-### `<HomePage />`
-
-- “Write a Post” card with image upload
-- Tabs: Feed / Following / Liked
-- Inline infinite scroll of `<PostCard />`
-
-### `<PostFeed />` (embedded directly)
-
-- Renders `<PostCard />` components inline
-- IntersectionObserver to fetch more
-
-### `<PostPage />`
-
-- Single post view
-- Share, copy link, email, print, bookmark button
-
-### `<PublicProfilePage />`
-
-- Profile header: avatar, name, handle, follow button
-- Stats: posts, followers, following
-- Infinite scroll of user’s posts
-- Modals for followers/following lists
-
----
-
-## Scripts
-
-- `dev`: Start development server
-- `build`: Create a production build
-- `start`: Run production build
-- `lint`: Run ESLint
-- `format`: Run Prettier
-
----
+Switch between themes by clicking the theme toggle button located in the header.
 
 ## Contributing
 
-1. Fork this repo
-2. Create a feature branch (`git checkout -b feature/x`)
-3. Commit your changes (`git commit -m "feat: your message"`)
-4. Push to your branch (`git push origin feature/x`)
-5. Open a pull request
+We welcome contributions to Meadows Social Media! To contribute, please follow these steps:
 
-Please ensure all new code is covered by tests and adheres to the project’s coding standards.
+1. **Fork the Repository**: Click the "Fork" button on the top right of this page.
 
----
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+
+3. **Make Your Changes**: Implement your feature or fix a bug.
+
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request."
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Links
+
+For the latest releases, visit the [Releases](https://github.com/vasanth-pro/Meadows-Social-Media/releases) section.
+
+If you want to explore the latest updates and features, check the [Releases](https://github.com/vasanth-pro/Meadows-Social-Media/releases) page.
 
 ## Acknowledgments
 
-Big thanks to Prof. Ajay Gandecha at UNC-Chapel Hill for the inspiration and basic structure of this project. The original project was a simple social media app, and this version has been significantly expanded with additional features and improvements.
+We thank the open-source community for their contributions and support. Special thanks to the creators of Next.js, Supabase, and React Query for providing the tools that made this project possible.
 
-Additionally, thanks to the open-source community for the libraries and tools that made this project possible, including Next.js, Supabase, React Query, Tailwind CSS, and many others.
+## Contact
+
+For any questions or feedback, feel free to reach out to the maintainer:
+
+- **Name**: Vasanth Pro
+- **Email**: vasanth@example.com
+- **Twitter**: [@vasanth_pro](https://twitter.com/vasanth_pro)
+
+---
+
+Thank you for checking out Meadows Social Media! We hope you enjoy using and contributing to this project.

